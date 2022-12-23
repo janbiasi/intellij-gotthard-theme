@@ -1,0 +1,375 @@
+{
+  "author": "Jan Biasi",
+  "dark": true,
+  "name": "Gotthard",
+  "editorScheme": "/theme/gotthard.xml",
+  "colors": {
+    "bg-layer-1": "#000000",
+    "bg-layer-1-highlight": "#333333",
+    "bg-layer-2": "#191919",
+    "bg-layer-focus": "#707070",
+    "layer-border": "#292929",
+    "foreground": "#F5F5F5",
+    "primary-contrast": "#F5F5F5",
+    "magenta-dark": "#836781",
+    "magenta-light": "#b19db4",
+    "red": "#AB6369",
+    "yellow": "#CAAB6D",
+    "brown": "#B89784",
+    "blue": "#6F98B3",
+    "green": "#81B19B",
+    "gray-dark": "#707070",
+    "radius-sm": "3"
+  },
+  "ui": {
+
+    "Component": {
+      "arc": 0,
+      "focusedBorderColor": "magenta-dark",
+      "focusColor": "magenta-dark",
+      "inactiveErrorFocusColor": "red",
+      "errorFocusColor": "red",
+      "inactiveWarningFocusColor": "yellow",
+      "warningFocusColor": "yellow"
+    },
+
+    "Panel": {
+      "background": "bg-layer-1",
+      "foreground": "foreground",
+      "mouseShortcutBackground": "bg-layer-2",
+      "mouseShortcutBackground": "bg-layer-1"
+    },
+
+    "ScrollPane": {
+      "background": "bg-layer-1",
+      "foreground": "foreground"
+    },
+    "Tree": {
+      "background": "bg-layer-1",
+      "foreground": "foreground",
+      "selectionBackground": "bg-layer-2",
+      "selectionInactiveBackground": "bg-layer-1-highlight",
+      "hoverBackground": "bg-layer-2"
+    },
+    "SidePanel": {
+      "background": "bg-layer-1"
+    },
+    "Borders": {
+      "color": "layer-border"
+    },
+    "WelcomeScreen": {
+      "background": "bg-layer-1",
+      "borderColor": "magenta-dark",
+      "Details": {
+        "background": "bg-layer-1"
+      },
+      "SidePanel": {
+        "background": "bg-layer-1"
+      },
+      "Projects": {
+        "background": "bg-layer-1",
+        "selectionBackground": "magenta-dark",
+        "selectionInactiveBackground": "bg-layer-2",
+        "actions": {
+          "background": "bg-layer-1",
+          "selectionBackground": "magenta-dark"
+        }
+      }
+    },
+    "StatusBar": {
+      "borderColor": "layer-border"
+    },
+    "ScrollBar": {
+      "background": "bg-layer-1",
+      "thumb": "bg-layer-2",
+      "thumbColor": "bg-layer-2",
+      "hoverThumbBorderColor": "magenta-dark",
+      "trackColor": "bg-layer-1",
+      "trackHighlight": "magenta-light"
+    },
+    "NavBar": {
+      "borderColor": "layer-border"
+    },
+    "ToolWindow": {
+      "background": "bg-layer-1",
+      "Header": {
+        "background": "bg-layer-1",
+        "inactiveBackground": "bg-layer-1",
+        "borderColor": "layer-border"
+      },
+      "HeaderTab": {
+        "underlinedTabBackground": "magenta-dark",
+        "underlinedTabInactiveBackground": "bg-layer-1",
+        "underlineColor": "magenta-dark",
+        "underlineHeight": "1",
+        "selectedInactiveBackground": "bg-layer-focus"
+      }
+    },
+
+    "Table": {
+      "background": "bg-layer-1",
+      "foreground": "foreground",
+      "alternativeRowBackground": "bg-layer-2",
+      "sortIconColor": "magenta-dark",
+      "selectionBackground": "bg-layer-focus",
+      "selectionForeground": "foreground",
+      "focusCellBackground": "bg-layer-2",
+      "focusCellForeground": "foreground"
+    },
+    "Menu": {
+      "background": "bg-layer-2",
+      "foreground": "foreground",
+      "selectionForeground": "foreground",
+      "selectionBackground": "bg-layer-focus"
+    },
+    "MenuBar": {
+      "borderColor": "layer-border",
+      "disabledBackground": "bg-layer-1",
+      "selectionBackground": "bg-layer-1"
+    },
+    "Popup": {
+      "background": "bg-layer-2",
+      "borderColor": "layer-border",
+      "inactiveBorderColor": "layer-border",
+      "paintBorder": "layer-border",
+      "borderWidth": "1",
+      "separatorColor": "layer-border",
+      "Header": {
+        "inactiveBackground": "bg-layer-2",
+        "activeBackground": "bg-layer-2"
+      },
+      "Advertiser": {
+        "background": "bg-layer-2"
+      }
+    },
+    "PopupMenu": {
+      "background": "bg-layer-2",
+      "foreground": "foreground",
+      "borderWidth": "0"
+    },
+    "SearchEverywhere": {
+      "Advertiser": {
+        "background": "bg-layer-2",
+        "foreground": "foreground"
+      },
+      "Header": {
+        "background": "bg-layer-2"
+      },
+      "SearchField": {
+        "background": "bg-layer-2",
+        "borderColor": "layer-border"
+      },
+      "List": {
+        "settingsBackground": "bg-layer-2",
+        "separatorColor": "layer-border"
+      },
+      "Tab": {
+        "selectedBackground": "bg-layer-2",
+        "selectedForeground": "magenta-dark"
+      }
+    },
+    "Banner": {
+      "errorBackground": "bg-layer-2",
+      "errorBorderColor": "magenta-dark",
+      "infoBackground": "bg-layer-2",
+      "infoBorderColor": "magenta-dark",
+      "successBackground": "bg-layer-2",
+      "successBorderColor": "magenta-dark"
+    },
+    "Notification": {
+      "background": "bg-layer-2",
+      "errorBackground": "bg-layer-2",
+      "linkForeground": "magenta-dark",
+      "foreground": "foreground",
+      "errorBorderColor": "magenta-dark",
+      "borderColor": "magenta-dark",
+      "ToolWindow": {
+        "informativeBackground": "bg-layer-2",
+        "informativeBorderColor": "blue",
+        "errorBackground": "bg-layer-2",
+        "errorBorderColor": "red",
+        "warningBackground": "bg-layer-2",
+        "warningBorderColor": "yellow"
+      }
+    },
+    "NotificationsToolwindow": {
+      "newNotification": {
+        "background": "magenta-dark",
+        "hoverBackground": "magenta-light"
+      }
+    },
+    "Plugins": {
+      "background": "bg-layer-1",
+      "disabledForeground": "bg-layer-focus",
+      "Button": {
+        "installBackground": "transparent",
+        "installBorderColor": "magenta-dark",
+        "installFillBackground": "magenta-dark",
+        "installFillForeground": "foreground",
+        "installForeground": "magenta-dark"
+      },
+      "Tab": {
+        "selectedBackground": "magenta-dark",
+        "selectedForeground": "foreground"
+      },
+      "SectionHeader": {
+        "background": "bg-layer-1",
+        "foreground": "foreground"
+      }
+    },
+
+
+    "Link": {
+      "activeForeground": "magenta-dark",
+      "secondaryForeground": "magenta-dark",
+      "visitedForeground": "magenta-dark",
+      "hoverForeground": "magenta-light"
+    },
+    "ToolTip": {
+      "linkForeground": "magenta-dark",
+      "background": "bg-layer-2",
+      "borderColor": "layer-separator",
+      "Actions": {
+        "background": "bg-layer-2",
+        "infoForeground": "magenta-light"
+      }
+    },
+    "GotItTooltip": {
+      "linkForeground": "magenta-dark"
+    },
+    "Label": {
+      "background": "bg-layer-1",
+      "foreground": "foreground"
+    },
+    "ComboBox": {
+      "background": "bg-layer-1",
+      "nonEditableBackground": "bg-layer-1",
+      "foreground": "foreground",
+      "disabledForeground": "bg-layer-2",
+      "ArrowButton": {
+        "disabledIconColor": "bg-layer-2",
+        "background": "bg-layer-1",
+        "iconColor": "magenta-dark"
+      }
+    },
+    "ComboBoxButton": {
+      "background": "magenta-dark"
+    },
+    "TextField": {
+      "background": "bg-layer-1",
+      "foreground": "foreground",
+      "selectionBackground": "bg-layer-2"
+    },
+    "TextArea": {
+      "background": "bg-layer-1",
+      "foreground": "foreground",
+      "caretForeground": "bg-layer-2",
+      "selectionBackground": "bg-layer-2"
+    },
+    "CheckBox": {
+      "background": "bg-layer-1",
+      "select": "bg-layer-2"
+    },
+    "RadioButton": {
+      "background": "bg-layer-1"
+    },
+    "CheckBoxMenuItem": {
+      "background": "bg-layer-1",
+      "selectionBackground": "bg-layer-1",
+      "selectionForeground": "magenta-dark",
+      "disabledBackground": "bg-layer-1",
+      "disabledForeground": "bg-layer-1"
+    },
+    "RadioButtonMenuItem": {
+      "background": "bg-layer-1",
+      "selectionBackground": "bg-layer-1",
+      "selectionForeground": "magenta-dark",
+      "disabledBackground": "bg-layer-1",
+      "disabledForeground": "bg-layer-1"
+    },
+    "Button": {
+      "background": "transparent",
+      "foreground": "foreground",
+      "startBorderColor": "bg-layer-2",
+      "endBorderColor": "bg-layer-2",
+      "focusedBorderColor": "magenta-light",
+      "disabledBorderColor": "bg-layer-2",
+      "disabledText": "bg-layer-focus",
+      "default.shadowColor": "transparent",
+      "default": {
+        "startBackground": "magenta-dark",
+        "endBackground": "magenta-dark",
+        "startBorderColor": "magenta-dark",
+        "endBorderColor": "magenta-dark",
+        "focusedBorderColor": "magenta-light",
+        "foreground": "foreground"
+      }
+    },
+    "ActionButton": {
+      "background": "bg-layer-2",
+      "foreground": "primary-contrast",
+      "arc": "radius-sm",
+      "pressedBorderColor": "magenta-light",
+      "default": {
+        "background": "magenta-dark",
+        "foreground": "primary-contrast",
+        "arc": "radius-sm"
+      }
+    },
+    "ProgressBar": {
+      "background": "bg-layer-1",
+      "foreground": "magenta-dark",
+      "passedColor": "green",
+      "failedColor": "red"
+    },
+    "List": {
+      "background": "bg-layer-1",
+      "selectionBackground": "bg-layer-2",
+      "selectionInactiveBackground": "bg-layer-2",
+      "hoverBackground": "bg-layer-2"
+    },
+
+    "Editor": {
+      "background": "bg-layer-1",
+      "foreground": "foreground",
+      "Toolbar": {
+        "borderColor": "layer-border"
+      },
+      "SearchField": {
+        "background": "bg-layer-2",
+        "borderInsets": "magenta-dark"
+      }
+    },
+    "EditorTabs": {
+      "background": "bg-layer-1",
+      "inactiveColoredFileBackground": "bg-layer-1",
+      "underlinedTabForeground": "magenta-dark",
+      "inactiveUnderlineColor": "bg-layer-2",
+      "underlineHeight": "1",
+      "underlinedTabBackground": "bg-layer-2",
+      "underlineColor": "magenta-dark"
+    },
+    "EditorPane": {
+      "background": "bg-layer-1",
+      "foreground": "foreground",
+      "splitBorder": "layer-border"
+    },
+    "TabbedPane": {
+      "background": "bg-layer-1",
+      "foreground": "foreground",
+      "focus": "bg-layer-2",
+      "focusColor": "magenta-dark",
+      "disabledForeground": "bg-layer-1"
+    },
+    "SplitPane": {
+      "background": "bg-layer-1"
+    },
+    "FileColor": {
+      "Blue": "blue",
+      "Gray": "bg-layer-focus",
+      "Green": "green",
+      "Orange": "yellow",
+      "Rose": "magenta-light"
+    }
+  }
+}
