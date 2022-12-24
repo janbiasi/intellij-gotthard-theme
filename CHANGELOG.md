@@ -2,7 +2,12 @@
 
 # intellij-gotthard-theme Changelog
 
-## [Unreleased]  - 2022-12-23
+## [Unreleased]
+
+### Fixed
+- Color theme registration
+
+## [1.0.0-beta] - 2022-12-23
 
 ### Added
 - Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
@@ -11,5 +16,9 @@
 
 ## [0.0.0] - 2022-12-21
 
-### Added 
+### Added
 - Initial Project Setup
+
+[Unreleased]: https://github.com/janbiasi/intellij-gotthard-theme/compare/v1.0.0-beta...HEAD
+[1.0.0-beta]: https://github.com/janbiasi/intellij-gotthard-theme/compare/v0.0.0...v1.0.0-beta
+[0.0.0]: https://github.com/janbiasi/intellij-gotthard-theme/commits/v0.0.0

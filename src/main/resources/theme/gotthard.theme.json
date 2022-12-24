@@ -36,7 +36,6 @@
     "Panel": {
       "background": "bg-layer-1",
       "foreground": "foreground",
-      "mouseShortcutBackground": "bg-layer-2",
       "mouseShortcutBackground": "bg-layer-1"
     },
 
