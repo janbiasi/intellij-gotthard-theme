@@ -133,6 +133,10 @@
       "paintBorder": "layer-border",
       "borderWidth": "1",
       "separatorColor": "layer-border",
+      "Toolbar": {
+        "background": "bg-layer-2",
+        "borderColor": "layer-border"
+      },
       "Header": {
         "inactiveBackground": "bg-layer-2",
         "activeBackground": "bg-layer-2"

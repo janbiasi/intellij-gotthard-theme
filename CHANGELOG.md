@@ -2,10 +2,11 @@
 
 # intellij-gotthard-theme Changelog
 
-## [Unreleased]
+## [1.1.0]
 
 ### Fixed
 - Color theme registration
+- Workbench colorization scheme
 
 ## [1.0.0-beta] - 2022-12-23
 
