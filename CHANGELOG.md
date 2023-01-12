@@ -2,7 +2,7 @@
 
 # intellij-gotthard-theme Changelog
 
-## [1.1.0]
+## [Unreleased]
 
 ### Fixed
 - Color theme registration
