@@ -9,7 +9,7 @@ plugins {
     // Kotlin support
     id("org.jetbrains.kotlin.jvm") version "1.7.21"
     // Gradle IntelliJ Plugin
-    id("org.jetbrains.intellij") version "1.11.0"
+    id("org.jetbrains.intellij") version "1.12.0"
     // Gradle Changelog Plugin
     id("org.jetbrains.changelog") version "2.0.0"
     // Gradle Qodana Plugin
@@ -117,7 +117,7 @@ tasks {
 
     publishPlugin {
         dependsOn("patchChangelog")
-        token.set(System.getenv("ORG_GRADLE_PROJECT_intellijGotthardPluginPublishToken"))
+        token.set(System.getenv("PUBLISH_TOKEN"))
 
         // pluginVersion is based on the SemVer (https://semver.org) and supports pre-release labels, like 2.1.7-alpha.3
         // Specify pre-release label to publish the plugin in a custom Release Channel automatically. Read more:
