@@ -57,6 +57,7 @@ jobs:
       # Publish the plugin to the Marketplace
       - name: Publish Plugin
         env:
+          ORG_GRADLE_PROJECT_intellijGotthardPluginPublishToken: ${{ secrets.PUBLISH_TOKEN }}
           PUBLISH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
           CERTIFICATE_CHAIN: ${{ secrets.CERTIFICATE_CHAIN }}
           PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
